@@ -1,0 +1,10 @@
+# Requirements for YT Grab Pro
+# Install with: pip install -r requirements.txt
+
+customtkinter
+yt-dlp
+requests
+
+# Notes:
+# - tkinter is usually bundled with CPython on Windows; it's not installed via pip.
+# - FFmpeg is required for some formats (MP3, 1080p/4K transcoding). Install FFmpeg separately and ensure it's on PATH or placed in the 'bin' folder next to the script.
