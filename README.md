@@ -5,6 +5,30 @@
 
 ---
 
+## ⚠️ تنبيه مهم | Important Notice
+
+### 🚫 هذا المستودع لا يتم تطويره حالياً
+**الحالة:** المشروع متوقف عن التطوير
+
+المطور قرر الانتقال من لغة **Python** إلى **C# .NET** ولن يقوم بتطوير هذا المشروع في المستقبل القريب.
+
+### 📢 ما يمكنك فعله:
+- **خذ نسخة خاصة بك:** يمكنك عمل Fork من هذا المستودع وتطويره بشكل مستقل
+- **ابحث عن مشاريع أخرى:** المطور لديه مشاريع أخرى مبنية على C# WPF (مغلقة المصدر لكنها مجانية للتحميل)
+
+---
+
+### 🚫 This Repository is Not Currently Maintained
+**Status:** Project is discontinued
+
+The developer has decided to migrate from **Python** to **C# .NET** and will not be developing this project in the near future.
+
+### 📢 What You Can Do:
+- **Fork this repository:** You can create your own fork and continue development independently
+- **Explore other projects:** The developer has other projects built with C# WPF (closed-source but free to download)
+
+---
+
 ## ⚠️ تحذير هام جداً | ⚠️ IMPORTANT WARNING
 
 ### العربية 🇸🇦
