@@ -61,41 +61,6 @@ Download FFmpeg from the official website:
 ## حول المشروع
 برنامج مفتوح المصدر يتيح تحميل الفيديوهات من مختلف مواقع الإنترنت بسهولة.
 
----
 
-## مثال: تضمين PayPal JS SDK
-فيما يلي مثال صفحة HTML صغيرة لدمج PayPal JS SDK. أضفت هذا المثال كما طلبت — يمكنك نسخه إلى ملف HTML مستقل (مثلاً `pay.html`) أو عرضه في README كقطعة كود.
-
-> ملاحظة: تجنب نشر `client-id` علنًا في المستودع العام. استبدل القيمة أو استخدم متغير بيئة عند النشر.
-
-```html
-<!DOCTYPE html>
-<html>
-    <head>
-        <meta charset="UTF-8" />
-        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-        <title>PayPal JS SDK Standard Integration</title>
-    </head>
-    <body>
-        <div id="paypal-button-container"></div>
-        <p id="result-message"></p>
-
-       
-        <!-- Initialize the JS-SDK -->
-        <script
-            src="https://www.paypal.com/sdk/js?client-id=AVOnwg0ZYES07VHFo3VTkGFBRTZBdFTAZXWL2VDUUpnJQMUVRA9Swp3KQ0tHLApHLZZEevLgm3-1Iv-h&buyer-country=US&currency=USD&components=buttons"
-            data-sdk-integration-source="developer-studio"
-        ></script>
-        <script src="app.js"></script>
-       
-    </body>
-</html>
-```
-
-الآن يمكنك:
-- إضافة ملف `pay.html` إلى المستودع وتجربة العرض محليًا.
-- إعداد GitHub Pages لعرض الملف كصفحة ثابتة إن رغبت.
-
-إذا تريد، أستطيع:
-- إنشاء ملف `pay.html` في المستودع يحتوي على المثال.
+pay.html` في المستودع يحتوي على المثال.
 - أو إزالة `client-id` ووضع تعليمات لاستخدام متغير بيئة.
